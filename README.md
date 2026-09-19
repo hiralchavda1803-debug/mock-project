@@ -12,11 +12,11 @@ The Number Guessing Game is a simple and interactive web game developed using HT
 - JavaScript
 
 ## 🚀 Features
-Random Number
+- Random Number
 
-User Input
+- User Input
 
-Feedback
+- Feedback
 
 
 
@@ -28,5 +28,7 @@ Feedback
 📁Mock-Project
 
 📂 index.html
+
 📂 style.css
+
 📂 script.js
