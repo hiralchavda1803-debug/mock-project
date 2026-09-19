@@ -20,9 +20,6 @@ The Number Guessing Game is a simple and interactive web game developed using HT
 
 
 
-
-
-
 ## 📂 Project Structure
 
 📁Mock-Project
