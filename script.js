@@ -22,13 +22,13 @@ document.querySelector(".check").addEventListener("click", function () {
 
     else if (guess < 1) {
 
-        document.querySelector(".message").textContent ="Number must be between 1 and 20!";
+        document.querySelector(".message").textContent = "Number must be between 1 and 20!";
 
     }
 
     else if (guess > 20) {
 
-        document.querySelector(".message").textContent ="Number must be between 1 and 20!";
+        document.querySelector(".message").textContent = "Number must be between 1 and 20!";
 
     }
 })
