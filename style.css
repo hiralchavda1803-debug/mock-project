@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin-left: 150px;
+}
+
+.wapper {
+    width: 85%;
+    height: 350px;
+    background-color: #59ad43;
+    margin: 45px;
+    color: white;
+    position: relative;
+}
+
+.again {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
+
+.again:hover {
+    background-color: white;
+}
+
+.between {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 105px;
+}
+
+.number {
+    width: 200px;
+    height: 70px;
+    background-color:white;
+    color:black;
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.left {
+    position: absolute;
+    left: 108px;
+    top: 163px;
+    text-align: center;
+}
+
+.guess {
+    width: 155px;
+    height: 60px;
+    background-color: #59ad43;
+    border: 2px solid white;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+   
+}
+
+.check {
+    display: block;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    padding:5px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    border: 2px solid rgb(38, 38, 38);
+}
+
+.check:hover {
+    background-color: white;
+}
+
+.right {
+    position: absolute;
+    left: 380px;
+    top: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 27px;
+}
