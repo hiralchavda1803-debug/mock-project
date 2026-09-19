@@ -110,12 +110,13 @@ h1 {
 
 .right {
     position: absolute;
-    left: 380px;
-    top: 200px;
+    left: 350px;
+    top: 150px;
     font-size: 18px;
     font-weight: bold;
 }
 
 .message {
     font-size: 27px;
+    padding: 30px;
 }

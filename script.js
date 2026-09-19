@@ -1,13 +1,20 @@
-let targetNumber = Math.floor(Math.random() * 100) + 1;
-let userGuesses = [];
-let attempts = 0;
-let gameOver = false;
+let number = Math.trunc(Math.random() * 20) + 1;
+let score = 20;
+let highscore = 0;
 
 
+document.getElementById("check").addEventListener("click", function () {
 
-let guessInput = document.getElementById("guessInput");
-let submitButton = document.getElementById("submitButton");
-let feedback = document.getElementById("feedback");
-let attemptsDisplay = document.getElementById("attemptsDisplay");
-let previousGuesses = document.getElementById("previousGuesses");
-let resetButton = document.getElementById("resetButton");
+    let guess = Number(document.getElementById("guess").value);
+    if (!guess) {
+
+        document.getElementById("message").textContent = "Please Enter a Number!";
+
+    }
+
+    else if (guess == number) 
+    {
+        document.getElementById("message").textContent = "🎉 Correct Number!";
+        document.getElementById("number").textContent = number;
+    }
+})
